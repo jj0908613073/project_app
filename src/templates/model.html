@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="/eel.js"></script> 
+    <script src ="./static/js/model.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<hr>
+    <form method='post' action="http://127.0.0.1:80/calculate"> 
+        <label>text1</label><br>
+    <input type ="text" id="text1" name="text1"><br>
+    <label>text2</label><br>
+    <input type ="text" id="text2"name="text2"><br><br> 
+    <input type="submit" value="submit" onclick="submit()"><br><br> 
+    <p>預測結果: <span id="textResult">{{result}}</span></p>
+    </form>
+
+
+
+</body>
+</html>
